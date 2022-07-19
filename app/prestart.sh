@@ -1,0 +1,1 @@
+python -m nltk.downloader stopwords wordnet omw-1.4 punkt

@@ -1,0 +1,342 @@
+{
+	"info": {
+		"_postman_id": "dafa8b6b-6a57-426f-9af8-b333b3456559",
+		"name": "forex-international",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1666192"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Create a user",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"user\",\n    \"email\": \"user@gmail.com\",\n    \"password\": \"user123\",\n    \"first_name\":\"fname\",\n    \"last_name\": \"laname\",\n    \"country\":\"country\",\n    \"mobile\":\"123456789\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-url}}/users",
+							"host": [
+								"{{base-url}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update a user",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"mobile\": \"1234567899\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-url}}/users",
+							"host": [
+								"{{base-url}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get current user",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-url}}/users/me",
+							"host": [
+								"{{base-url}}"
+							],
+							"path": [
+								"users",
+								"me"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Get access token",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var data = JSON.parse(responseBody);",
+									"",
+									"pm.environment.set(\"access_token\", data.payload.access_token);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"user@gmail.com\",\n    \"password\": \"user123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-url}}/oauth/token",
+							"host": [
+								"{{base-url}}"
+							],
+							"path": [
+								"oauth",
+								"token"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Fundamental Analysis",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{access_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base-url}}/fundamental",
+					"host": [
+						"{{base-url}}"
+					],
+					"path": [
+						"fundamental"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get chart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base-url}}/charts/EUR/USD",
+					"host": [
+						"{{base-url}}"
+					],
+					"path": [
+						"charts",
+						"EUR",
+						"USD"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Technical Analysis",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base-url}}/technical/eur/usd",
+					"host": [
+						"{{base-url}}"
+					],
+					"path": [
+						"technical",
+						"eur",
+						"usd"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create order",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{access_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{base-url}}/orders?symbol=eur&currency=usd&action=1",
+					"host": [
+						"{{base-url}}"
+					],
+					"path": [
+						"orders"
+					],
+					"query": [
+						{
+							"key": "symbol",
+							"value": "eur"
+						},
+						{
+							"key": "currency",
+							"value": "usd"
+						},
+						{
+							"key": "action",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Indicator",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base-url}}/charts/indicator/EUR/USD",
+					"host": [
+						"{{base-url}}"
+					],
+					"path": [
+						"charts",
+						"indicator",
+						"EUR",
+						"USD"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "File upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/home/sajith/Pictures/Screenshot from 2022-04-29 18-13-43.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{base-url}}/files",
+					"host": [
+						"{{base-url}}"
+					],
+					"path": [
+						"files"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Verify face",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/home/sajith/Downloads/ref.jpeg"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{base-url}}/face",
+					"host": [
+						"{{base-url}}"
+					],
+					"path": [
+						"face"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

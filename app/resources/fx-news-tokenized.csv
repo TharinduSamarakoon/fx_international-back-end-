@@ -1,0 +1,53 @@
+,page,date,title,tokenized,action,pair,duration
+0,1,2022-04-10,Russia calls for integrating BRICS payment systems,"['russia', 'call', 'integrate', 'brics', 'payment', 'systems']",na,[],fivemin_counter
+1,1,2022-04-09,S&P cuts Russia's foreign currency rating to 'selective default',"['&', 'p', 'cut', 'russia', ""'s"", 'foreign', 'currency', 'rat', ""'selective"", 'default', ""'""]",na,[],fivemin_counter
+2,1,2022-04-08,Russia relaxes rules on foreign exchange buying as rouble rallies,"['russia', 'relax', 'rule', 'foreign', 'exchange', 'buy', 'rouble', 'rally']",na,[],fivemin_counter
+3,1,2022-04-08,Speculators pare back net long U.S. dollar bets in latest week -CFTC Reuters data,"['speculators', 'pare', 'back', 'net', 'long', 'u.s.', 'dollar', 'bet', 'latest', 'week', '-cftc', 'reuters', 'data']",na,['usd'],fivemin_counter
+4,1,2022-04-08,U.S. dollar posts largest weekly gain in one month on hawkish Fed messages,"['u.s.', 'dollar', 'post', 'largest', 'weekly', 'gain', 'one', 'month', 'hawkish', 'feed', 'message']",bull,['usd'],fivemin_counter
+5,1,2022-04-08,Analysis-Russia's rouble rebound not quite what it seems,"['analysis-russia', ""'s"", 'rouble', 'rebound', 'quite', 'seem']",na,[],fivemin_counter
+6,1,2022-04-08,USDCHF reverses earlier gains and trades negative on the day but into support.,"['usdchf', 'reverse', 'earlier', 'gain', 'trade', 'negative', 'day', 'support', '.']",bull,usd/chf,fivemin_counter
+7,1,2022-04-08,AUDUSD retracing the declines after finding support near old ceiling from March,"['audusd', 'retrace', 'decline', 'find', 'support', 'near', 'old', 'ceiling', 'march']",bear,aud/usd,fivemin_counter
+8,1,2022-04-08,EURUSD jumps. ECB crisis tool talk gives the pair a lift,"['eurusd', 'jump', '.', 'ecb', 'crisis', 'tool', 'talk', 'give', 'pair', 'lift']",na,eur/usd,fivemin_counter
+9,1,2022-04-08,USDCAD moves to a new week high and tests its 200 day MA target,"['usdcad', 'move', 'new', 'week', 'high', 'test', '200', 'day', 'target']",bull,usd/cad,fivemin_counter
+10,1,2022-04-08,EURUSD trades to a new week low,"['eurusd', 'trade', 'new', 'week', 'low']",bear,eur/usd,fivemin_counter
+11,1,2022-04-08,USDJPY moves to a new session high,"['usdjpy', 'move', 'new', 'session', 'high']",bull,usd/jpy,fivemin_counter
+12,1,2022-04-08,GBPUSD trades to a new session/week low. Tests lows from March 15,"['gbpusd', 'trade', 'new', 'session/week', 'low', '.', 'test', 'low', 'march', '15']",bear,gbp/usd,fivemin_counter
+13,1,2022-04-08,Dollar Edges Higher Climbs to a New Two-Year High,"['dollar', 'edge', 'higher', 'climb', 'new', 'two-year', 'high']",bull,[],fivemin_counter
+14,1,2022-04-07,Dollar Up Potentially Tighter U.S. Monetary Policy Continues to Provide Support,"['dollar', 'potentially', 'tighter', 'u.s.', 'monetary', 'policy', 'continue', 'provide', 'support']",na,['usd'],fivemin_counter
+15,1,2022-04-07,No peace for emerging market currencies as mighty U.S. dollar reigns Reuters poll,"['peace', 'emerge', 'market', 'currencies', 'mighty', 'u.s.', 'dollar', 'reign', 'reuters', 'poll']",na,['usd'],fivemin_counter
+16,1,2022-04-07,ForexLive Asia FX news wrap USD/JPY rejected above 124,"['forexlive', 'asia', 'fx', 'news', 'wrap', 'usd/jpy', 'reject', '124']",na,usd/jpy,fivemin_counter
+17,1,2022-04-07,USD/JPY intervention unlikely ahead of 130,"['usd/jpy', 'intervention', 'unlikely', 'ahead', '130']",na,usd/jpy,fivemin_counter
+18,1,2022-04-07,U.S. dollar rises but off near two-year peak amid hawkish Fed signals,"['u.s.', 'dollar', 'rise', 'near', 'two-year', 'peak', 'amid', 'hawkish', 'feed', 'signal']",bull,['usd'],fivemin_counter
+19,1,2022-04-07,Russia says rouble appreciations poses no threat to fiscal policy,"['russia', 'say', 'rouble', 'appreciations', 'pose', 'threat', 'fiscal', 'policy']",na,[],fivemin_counter
+20,1,2022-04-07,USD/JPY popped above 124.00 and has since dropped back to 123.80,"['usd/jpy', 'pop', '124.00', 'since', 'drop', 'back', '123.80']",bear,usd/jpy,fivemin_counter
+21,1,2022-04-07,EU approves French scheme to support companies hit by Ukraine war,"['eu', 'approve', 'french', 'scheme', 'support', 'company', 'hit', 'ukraine', 'war']",na,['eur'],fivemin_counter
+22,1,2022-04-07,AUDJPY settles between 100 and 200 hour MAs,"['audjpy', 'settle', '100', '200', 'hour', 'mas']",na,aud/jpy,fivemin_counter
+23,1,2022-04-07,Ruble Nears Two-Month High Sparks Doubt Over ‘Synthetic’ Rally,"['ruble', 'near', 'two-month', 'high', 'spark', 'doubt', '‘', 'synthetic', '’', 'rally']",bull,[],fivemin_counter
+24,1,2022-04-07,Brazil real to keep close to pre-pandemic levels despite feeble economy Reuters poll,"['brazil', 'real', 'keep', 'close', 'pre-pandemic', 'level', 'despite', 'feeble', 'economy', 'reuters', 'poll']",na,[],fivemin_counter
+25,1,2022-04-07,NZDUSD back below 200 day MA. Bears/sellers making a further play to the downside today,"['nzdusd', 'back', '200', 'day', '.', 'bears/sellers', 'make', 'play', 'downside', 'today']",bear,nzd/usd,fivemin_counter
+26,1,2022-04-07,AUDUSD holds above 38.2 retracement but continues to knock on supports door,"['audusd', 'hold', '38.2', 'retracement', 'continue', 'knock', 'support', 'door']",na,aud/usd,fivemin_counter
+27,1,2022-04-07,Canadian dollar seen higher if BoC front-loads rate hikesReuters poll,"['canadian', 'dollar', 'see', 'higher', 'boc', 'front-loads', 'rate', 'hikesreuters', 'poll']",bull,['cad'],fivemin_counter
+28,1,2022-04-07,USDCAD tests the 38.2 retracement of move down from March high,"['usdcad', 'test', '38.2', 'retracement', 'move', 'march', 'high']",bull,usd/cad,fivemin_counter
+29,1,2022-04-07,USDJPY stuck in the mud nearer highs and above 100 hour MA,"['usdjpy', 'stick', 'mud', 'nearer', 'highs', '100', 'hour']",na,usd/jpy,fivemin_counter
+30,1,2022-04-07,WeChat Joins the Digital Yuan Pilot Program,"['wechat', 'join', 'digital', 'yuan', 'pilot', 'program']",na,[],fivemin_counter
+31,1,2022-04-07,GBPUSD price action makes you want to lie down until the feeling to trade goes away,"['gbpusd', 'price', 'action', 'make', 'want', 'lie', 'feel', 'trade', 'go', 'away']",na,gbp/usd,fivemin_counter
+32,1,2022-04-07,EURUSD up and down and up bounces continue today,"['eurusd', 'bounce', 'continue', 'today']",na,eur/usd,fivemin_counter
+33,1,2022-04-07,Dollar Drops From Two-Year High Euro Bounces Off New Lows,"['dollar', 'drop', 'two-year', 'high', 'euro', 'bounce', 'new', 'low']",bear,['eur'],fivemin_counter
+34,1,2022-04-07,Pound Euro GBP/EUR Exchange Rate Russia-Ukraine and Cost-of-Living Remain the Focus,"['pound', 'euro', 'gbp/eur', 'exchange', 'rate', 'russia-ukraine', 'cost-of-living', 'remain', 'focus']",na,eur/gbp,fivemin_counter
+35,2,2022-04-07,Bearish bets on Asian FX ease as central banks tilt towards rate hikes Reuters poll,"['bearish', 'bet', 'asian', 'fx', 'ease', 'central', 'bank', 'tilt', 'towards', 'rate', 'hike', 'reuters', 'poll']",na,[],fivemin_counter
+36,2,2022-04-07,Dollar Down but Near Two Year High as Fed’s Hawkish Stance Caps Losses,"['dollar', 'near', 'two', 'year', 'high', 'feed', '’', 'hawkish', 'stance', 'cap', 'losses']",bull,[],fivemin_counter
+37,2,2022-04-06,U.S. dollar to stay dominant so long as Fed stays hawkish Reuters poll,"['u.s.', 'dollar', 'stay', 'dominant', 'long', 'feed', 'stay', 'hawkish', 'reuters', 'poll']",na,['usd'],fivemin_counter
+38,2,2022-04-06,Ebbing dollar reserves only scratch on dominance McGeever,"['ebb', 'dollar', 'reserve', 'scratch', 'dominance', 'mcgeever']",na,[],fivemin_counter
+39,2,2022-04-06,U.S. dollar climbs to near two-year peak on prospect of sizable Fed rate hikes,"['u.s.', 'dollar', 'climb', 'near', 'two-year', 'peak', 'prospect', 'sizable', 'feed', 'rate', 'hike']",bull,['usd'],fivemin_counter
+40,2,2022-04-06,Ruble Erases Invasion Loss Bucking Default Risks Sanctions,"['ruble', 'erase', 'invasion', 'loss', 'buck', 'default', 'risk', 'sanction']",bear,[],fivemin_counter
+41,2,2022-04-06,Dollar Surges on Aggressive Fed Expectations Euro Slips,"['dollar', 'surge', 'aggressive', 'feed', 'expectations', 'euro', 'slip']",bear,['eur'],fivemin_counter
+42,2,2022-04-06,Dollar Up Near Two-Year High as Fed Maintains Hawkish Tone,"['dollar', 'near', 'two-year', 'high', 'feed', 'maintain', 'hawkish', 'tone']",bull,[],fivemin_counter
+43,2,2022-04-05,U.S. dollar rises to nearly two-year high on hawkish Fed comments,"['u.s.', 'dollar', 'rise', 'nearly', 'two-year', 'high', 'hawkish', 'feed', 'comment']",bull,['usd'],fivemin_counter
+44,2,2022-04-05,Dollar Edges Lower Ahead of Fed Minutes Aussie Dollar Soars,"['dollar', 'edge', 'lower', 'ahead', 'feed', 'minutes', 'aussie', 'dollar', 'soar']",bear,['aud'],fivemin_counter
+45,2,2022-04-04,U.S. dollar firms on prospect of more sanctions over Ukraine,"['u.s.', 'dollar', 'firm', 'prospect', 'sanction', 'ukraine']",na,['usd'],fivemin_counter
+46,2,2022-04-04,Dollar Stabilizes Euro Falls as Russia Sanctions Talk Ramps Up,"['dollar', 'stabilize', 'euro', 'fall', 'russia', 'sanction', 'talk', 'ramp']",bear,['eur'],fivemin_counter
+47,2,2022-04-03,Euro Lower on Prospect of More Sanctions on Russia,"['euro', 'lower', 'prospect', 'sanction', 'russia']",bear,['eur'],fivemin_counter
+48,2,2022-04-02,China central bank expands digital yuan pilot scheme to more cities,"['china', 'central', 'bank', 'expand', 'digital', 'yuan', 'pilot', 'scheme', 'cities']",bull,[],fivemin_counter
+49,2,2022-04-02,Ukraine's gold and forex reserves stand at $29 billion says official,"['ukraine', ""'s"", 'gold', 'forex', 'reserve', 'stand', '$', '29', 'billion', 'say', 'official']",na,[],fivemin_counter
+50,2,2022-04-01,Dollar rises after robust U.S. jobs data euro dips,"['dollar', 'rise', 'robust', 'u.s.', 'job', 'data', 'euro', 'dip']",na,eur/usd,fivemin_counter
+51,2,2022-04-01,Lira deposit scheme payouts loom as Turkey juggles finances,"['lira', 'deposit', 'scheme', 'payouts', 'loom', 'turkey', 'juggle', 'finance']",na,[],fivemin_counter

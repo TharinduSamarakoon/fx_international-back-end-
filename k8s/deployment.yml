@@ -1,0 +1,30 @@
+apiVersion: "apps/v1"
+kind: "Deployment"
+metadata:
+  name: fi-api
+  labels:
+    name: fi-api
+spec:
+  selector:
+    matchLabels:
+      app: fi-api
+  template:
+    metadata:
+      labels:
+        app: fi-api
+    spec:
+      containers:
+        - name: transcoding-api
+          image: gcr.io/first-fuze-348014/fi-api:latest
+          resources:
+            requests:
+              cpu: "1000m"
+          envFrom:
+            - configMapRef:
+                name: fi-configmap
+            - secretRef:
+                name: fi-secret
+          ports:
+            - name: fi-api
+              containerPort: 80
+              protocol: TCP

@@ -1,0 +1,15 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: fi-api
+  labels:
+    app: fi-api
+spec:
+  ports:
+    - port: 80
+      targetPort: fi-api
+      protocol: TCP
+      name: fi-api
+  selector:
+    app: fi-api
+  type: LoadBalancer
